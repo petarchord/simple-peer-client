@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  padding: 1em;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.players_holder {
+  margin: 1em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.player_item {
+}
+
+.player_item video {
+  margin: 1em 0;
+  width: 95%;
+}
+
+.peers_holder {
+}
+
+.btn_peers_holder {
+  margin: 1em 0;
+}
+
+.btn_peers_holder button {
+  margin-right: 1em;
+  padding: 0.5em;
+}
+
+.incoming_call {
+  display: none;
+  position: absolute;
+  border: solid 1px;
+  width: 50%;
+  top: 50%;
+  left: 25%;
+  background: antiquewhite;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.incoming_call button {
+  padding: 0.5em;
+  margin-right: 1em;
+  margin-top: 2em;
+}
+
+.visible {
+  display: block;
+}
+
+.invisible {
+  display: none;
+}
